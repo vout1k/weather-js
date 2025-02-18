@@ -1,0 +1,15 @@
+{
+   "version": "2.0",
+   "manifest_version": 3,
+   "name": "weather tracker",
+  
+   "description": "Check the weather of your city",
+   "action": {
+      "default_popup":"index.html",
+      "default_icon":"temp.png"
+  
+   },
+   "permissions": ["geolocation"]
+}
+
+

@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+body {
+   font-family: "Montserrat", serif;
+   font-size: 15px;
+   padding: 20px;
+   color: black;
+}
+
+.container{
+   max-width: 1000px;
+   margin: 0 auto;
+   background: white;
+   padding: 20px;
+   border-radius: 5px;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, .1);
+   text-align: center;
+}
+
+input {
+   padding: 10px;
+   width: calc(80% - 20px);
+   margin-bottom: 10px;
+   border: 1px solid #ccc;
+   border-radius: 8px;
+} 
+
+.btn-new {
+   box-shadow: 0 5px 15px 0 rgba(11, 99, 246, 1);
+   transition: 0.5s;
+
+   padding: 10px 20px;
+   background: #007bff;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   color: #fff;
+   font-weight: 400;
+ }
+ 
+ .btn-new:hover {
+   transform: translate(0,-3px);
+   box-shadow: 0 20px 40px 0 rgba(11, 99, 246, 1);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+body {
+   font-family: "Montserrat", serif;
+   font-size: 15px;
+   color: black;
+
+   margin: 0;
+   padding: 0;
+
+}
+
+*,
+*:after,
+*:before {
+   box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+   margin: 0;
+   padding: 0;
+}
+
+
+
+
+
+.container {
+   max-width: 900px;
+   width: 100%;
+   margin: 0 auto;
+}
+
+
+
+
+.wrap {
+   width: 50%;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+
+   margin-top: 225px;
+}
+
+
+.container {
+   display: grid;
+   place-items: center;
+}
+   
+
+.img-js {
+   width: 30px;
+ 
+}
+
+
+.write_city {
+   padding: 8px 8px;
+   border-color: rgba(9, 126, 223, 0.486);
+
+   box-shadow: 2px 5px rgba(177, 177, 177, 0.562);
+
+}
+
+.weather-title {
+   color: rgba(5, 163, 163, 0.377);
+   margin-bottom: 20px;
+}
+
+#getWeather {
+   padding: 10px 35px;
+   background-color: #2b7ded;
+   color: #fff;
+   font-weight: 600;
+
+   border-radius: 5px;
+   border: 0;
+   transition: opacity 0.2s;
+}
+
+#getWeather:hover {
+   opacity: 0.7;
+   cursor: pointer;
+}   
+
+#weatherResult {
+   margin-top: 20px;
+}
+
+
+
